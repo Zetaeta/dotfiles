@@ -1,0 +1,30 @@
+URxvt.depth: 32
+URxvt*background: rgba:1111/1111/1111/dddd
+URxvt*foreground: #D6EAED
+URxvt.scrollstyle: plain
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+
+*color0:  #000000
+*color8:  #686868
+
+*color1:  #A80001
+*color9:  #FF5454
+
+*color2:  #18B218
+*color10: #54FF54
+
+*color3:  #B26818
+*color11: #FFFF54
+
+*color4:  #1818B2
+*color12: #5454FF
+
+*color5:  #B218B2
+*color13: #FF54FF
+
+*color6:  #18B2B2
+*color14: #54FFFF
+
+*color7:  #B2B2B2
+*color15: #FFFFFF

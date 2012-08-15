@@ -1,0 +1,16 @@
+Config {
+    font = "xft:terminus:size=10",
+    bgColor = "black",
+    fgColor = "grey",
+    position = Top
+    lowerOnStart = True,
+    commands = [
+        Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10,
+        Run Memory ["-t","Mem: <usedratio>%"] 10,
+        Run Date "%a %b %_d %l:%M" "date" 10,
+        Run StdinReader
+        ],
+    sepChar  = "%",
+    alignSep = "}{",
+    template = " %StdinReader%}{ <fc=grey>%cpu% ~ %memory%</fc> ~ <fc=#ee9a00>%date%</fc> "
+    }
