@@ -29,3 +29,5 @@
 .qtorrent.history
 .gdb_history
 .lesshst
+.ICEauthority
+.viminfo
