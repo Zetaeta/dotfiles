@@ -31,3 +31,5 @@
 .lesshst
 .ICEauthority
 .viminfo
+*.swp
+*.swo
