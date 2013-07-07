@@ -1,5 +1,5 @@
 Config {
-    font = "xft:terminus:size=10",
+    font = "xft:terminus:size=9",
     bgColor = "black",
     fgColor = "grey",
     position = Top
@@ -8,9 +8,11 @@ Config {
         Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10,
         Run Memory ["-t","Mem: <usedratio>%"] 10,
         Run Date "%a %b %_d %l:%M" "date" 10,
-        Run StdinReader
+        Run StdinReader,
+	Run Wireless "wlan0" ["-t","wlan0: %","-L","0","-H","32","--normal","green","--high","red"] 10,
+	Run Battery ["-t","Batt: %","-L","25","-H","75","--low","#FF0000","--normal","#F9FF00","--high","#00FF00"] 600
         ],
     sepChar  = "%",
     alignSep = "}{",
-    template = " %StdinReader%}{ <fc=grey>%cpu% ~ %memory%</fc> ~ <fc=#ee9a00>%date%</fc> "
+    template = " %StdinReader%}{ %battery% %wlan0wi% <fc=grey>%cpu% | %memory%</fc> | <fc=#5555FF>%date%</fc> "
     }

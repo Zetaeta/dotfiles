@@ -3,3 +3,8 @@
 	email = ZetaetaDaniel@gmail.com
 [color]
 	ui = auto
+[core]
+	excludesfile = /home/daniel/.gitignore_global
+[github]
+	user = Zetaeta
+	token = f01ed596193edfe8576fa482af2977f09eac5d89

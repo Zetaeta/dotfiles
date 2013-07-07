@@ -27,7 +27,7 @@ fi
 
 #exec ck-launch-session mate-session
 #exec kdm
-#exec xmonad
+exec myxmonad
 
 
 # set the cursor
@@ -36,7 +36,6 @@ fi
 #setxkbmap -layout uk
 # start xmonad
 #exec ck-launch-session xmonad
-exec ck-launch-session gnome-session
 
 #case $desktop in
 #    gnome)

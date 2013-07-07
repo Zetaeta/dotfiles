@@ -1,9 +1,0 @@
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/daniel/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-# Lines configured by zsh-newuser-install
-setopt beep nomatch notify
-# End of lines configured by zsh-newuser-install
