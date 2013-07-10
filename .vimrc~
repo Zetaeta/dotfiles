@@ -1,5 +1,0 @@
-syntax on
-au BufNewFile,BufRead *.vert\|*.frag setfiletype glsl
-
-set expandtab
-set tabstop=4
