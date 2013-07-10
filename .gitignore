@@ -36,3 +36,4 @@
 .Xauthority
 .vim/.netrwhist
 .oh-my-zsh
+.desktop_env
