@@ -1,7 +1,4 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=10000
 setopt appendhistory autocd beep extendedglob nomatch notify
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -13,13 +10,14 @@ compinit
 # End of lines added by compinstall
 
 # Path to your oh-my-zsh configuration.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="agnoster-zeta"
+#ZSH_THEME="zetaeta"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -73,3 +71,5 @@ unsetopt correctall
 autoload edit-command-line
 zle -N edit-command-line
 bindkey -a v edit-command-line
+SAVEHIST=20000
+HISTFILE="~/.zsh_history"

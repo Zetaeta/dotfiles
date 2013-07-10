@@ -33,3 +33,6 @@
 .viminfo
 *.swp
 *.swo
+.Xauthority
+.vim/.netrwhist
+.oh-my-zsh

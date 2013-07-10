@@ -1,9 +1,16 @@
+
+set t_Co=256
+let hs_highlight_boolean=1
+let hs_highlight_types=1
+let hs_highlight_more_types=1
+
 syntax on
 
 call pathogen#infect()
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set nocompatible
 
 
 au BufNewFile,BufRead *.html\|*.htm set foldmethod=indent
@@ -26,7 +33,7 @@ if $SOLARIZED == "true"
 elseif $TERM == "linux"
     colorscheme desert
 else
-    colorscheme molokai
+    colorscheme mymolokai
 endif
 
 set guifont=termsyn
