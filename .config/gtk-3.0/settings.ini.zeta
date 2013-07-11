@@ -1,0 +1,17 @@
+[Settings] 
+gtk-theme-name=GNOME-Cupertino
+gtk-icon-theme-name=Faenza-Cupertino-Dark
+gtk-font-name=Sans 10
+gtk-cursor-theme-name=Oxygen_Black
+gtk-cursor-theme-size=0
+gtk-toolbar-style=GTK_TOOLBAR_ICONS
+gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
+gtk-button-images=0
+gtk-menu-images=1
+gtk-enable-event-sounds=1
+gtk-enable-input-feedback-sounds=1
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle=hintmedium
+#gtk-color-scheme=sidebar_background:#e1e5eb\ntheme_text_dark_color:#202020\nmenu_gradient:#4455F6\ntooltip_fg_color:#35ad35ad35ad\nlink_color:#0033ff\nbase_color:#ffffff\ntext_color:#202020\nselected_fg_color:#ffffff\ntheme_bg_dark_color:#D5D5D5\nbg_color:#ededed\ntooltip_bg_color:#a130ac0fafaf\ntheme_fg_dark_color:#323232\nselected_bg_color:#3875d7\nfg_color:#363636\nprogressbar_color:#6ab2f5\n
+gtk-color-scheme="sidebar_background:#e1e5eb\ntheme_text_dark_color:#202020\nmenu_gradient:#4455F6\ntooltip_fg_color:#35ad35ad35ad\nlink_color:#0033ff\nbase_color:#ffffff\ntext_color:#202020\nselected_fg_color:#ffffff\ntheme_bg_dark_color:#D5D5D5\nbg_color:#ededed\ntooltip_bg_color:#a130ac0fafaf\ntheme_fg_dark_color:#323232\nselected_bg_color:#3875d7\nfg_color:#363636\nprogressbar_color:#6ab2f5\n"
