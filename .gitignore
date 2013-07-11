@@ -14,8 +14,6 @@
 .bitcoin
 .sqlite_history
 .wine
-.config
-!.config/gtk-3.0
 .apod*
 .zsh_history
 .scala_history
@@ -132,6 +130,11 @@
 .thumbnails
 .xmonad/xmonad-x86_64-linux
 .xmonad/xmonad.hi
+
+.config/*
+!.config/gtk-3.0
+!.config/fontconfig
+
 scripts
 core.*
 Documents
