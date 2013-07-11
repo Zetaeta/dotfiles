@@ -1,0 +1,1 @@
+/home/daniel/.vim/syntax/cpp-jp.vim

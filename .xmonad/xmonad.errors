@@ -1,0 +1,28 @@
+
+xmonad.hs:49:38:
+    Couldn't match type `Choose [] r0' with `[]'
+    Expected type: [a1] -> r0 a1 -> [a1]
+      Actual type: [a1] -> r0 a1 -> Choose [] r0 a1
+    In the first argument of `foldl', namely `(|||)'
+    In the first argument of `(.)', namely `foldl (|||)'
+    In the expression:
+      foldl (|||) . concat . map (\ l -> [l, Mirror l]) tiledLayouts
+
+xmonad.hs:49:55:
+    Couldn't match expected type `a0 -> [[a1]]'
+                with actual type `[[Mirror l0 a2]]'
+    In the return type of a call of `map'
+    Probable cause: `map' is applied to too many arguments
+    In the second argument of `(.)', namely
+      `map (\ l -> [l, Mirror l]) tiledLayouts'
+    In the second argument of `(.)', namely
+      `concat . map (\ l -> [l, Mirror l]) tiledLayouts'
+
+xmonad.hs:50:44:
+    Couldn't match expected type `XMonad.Layout.LayoutModifier.ModifiedLayout
+                                    Spacing ResizableTall a0'
+                with actual type `ResizableTall a1'
+    In the expression: fullTile
+    In the expression: [tiledSpace, tiled, fullTile]
+    In an equation for `tiledLayouts':
+        tiledLayouts = [tiledSpace, tiled, fullTile]

@@ -1,0 +1,7 @@
+[X-GNOME-Metatheme]
+Name=qt4
+Comment=Automaticaly created by GTK_KDE4
+Encoding=UTF-8
+GtkTheme=qt4
+MetacityTheme=qt4
+IconTheme=oxygen-icon-gnome
