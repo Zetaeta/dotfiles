@@ -73,3 +73,4 @@ zle -N edit-command-line
 bindkey -a v edit-command-line
 SAVEHIST=20000
 HISTFILE="~/.zsh_history"
+PATH=$PATH:$HOME/.cabal/bin

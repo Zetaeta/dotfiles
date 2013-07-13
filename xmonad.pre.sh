@@ -8,6 +8,7 @@ xset fp rehash
 #xcalib /home/sunn/x230.icm &
 xsetroot -cursor_name left_ptr &
 #xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' &
+setxkbmap gb
 xmodmap .Xmodmap
 #urxvtd &
 
