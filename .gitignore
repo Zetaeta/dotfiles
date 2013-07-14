@@ -137,7 +137,6 @@
 !.config/gtk-3.0
 !.config/fontconfig
 
-scripts
 core.*
 Documents
 Desktop
